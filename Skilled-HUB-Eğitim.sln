@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Konu-4-KARAR-YAPİLARİ", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PROJE-1------HESAP-MAKİNESİ", "PROJE-1------HESAP-MAKİNESİ\PROJE-1------HESAP-MAKİNESİ.csproj", "{249CFDC4-17A0-4E80-921D-FDDB2AA22C51}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Konu-05-METHOTLAR", "Konu-05-METHOTLAR\Konu-05-METHOTLAR.csproj", "{11E54E4A-156F-405B-BD95-E1EC574BAB28}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{249CFDC4-17A0-4E80-921D-FDDB2AA22C51}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{249CFDC4-17A0-4E80-921D-FDDB2AA22C51}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{249CFDC4-17A0-4E80-921D-FDDB2AA22C51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11E54E4A-156F-405B-BD95-E1EC574BAB28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11E54E4A-156F-405B-BD95-E1EC574BAB28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11E54E4A-156F-405B-BD95-E1EC574BAB28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11E54E4A-156F-405B-BD95-E1EC574BAB28}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
