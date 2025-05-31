@@ -1,4 +1,6 @@
-﻿namespace Konu_05_METHOTLAR
+﻿using System.ComponentModel.Design;
+
+namespace Konu_05_METHOTLAR
 {
     internal class Program
     {
@@ -16,8 +18,25 @@
             int sonuc = ToplamaYap(10, 20, 30); // Metot çağrısı yapıldıktan sonra geriye dönen değer değişkene atanır.
 
             Console.WriteLine("Sonuç: " + sonuc);
-        }
 
+            Console.WriteLine("Lütfen mail adresinizi giriniz: ");
+
+            var mail = Console.ReadLine();
+
+            if (MailGonder(mail) == false)
+
+            {
+                Console.WriteLine("Mail Bilgileriniz Yanlış");
+            }
+
+            else
+                Console.WriteLine("Giriş Başarılı");
+
+            KdvHesapla();
+            MatematikselMetotlar();
+        }
+       
+        
         static void ToplamaYap()
         {
             Console.WriteLine(10 + 8);
@@ -52,5 +71,43 @@
 
         }
 
+        static bool MailGonder(String MailAdresi)
+
+        {
+            if (!string.IsNullOrEmpty(MailAdresi)) // eğer mail adresi değişkenine bir değer girilmişse,yani mail adresi boş değilse
+
+            { return true; } // geriye true değeri gönderir
+
+            else return false; // mail adresş boş ise geriye false değeri gönderir
+        }
+
+        static void KdvHesapla()
+
+        {
+            double fiyat, kdv, toplma;
+            Console.WriteLine("Fiyat Bilgisi Giriniz: ");
+            fiyat = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("KDV Giriniz: ");
+            var KdvMiktarı = Convert.ToDouble(Console.ReadLine);
+            kdv = fiyat * KdvMiktarı / 100;
+            toplma = fiyat + kdv;
+            Console.WriteLine("Ürün KDV tutarı: " + kdv);
+            Console.WriteLine("Ürün Toplam Tutarı: " + toplma);
+        }
+
+        static void MatematikselMetotlar ()
+
+            // Belirli matematiksel işlemlar yapan bazı metotlar
+        {
+            int max = Math.Max(10, 34); // x ve y sayılarının en büyüğünü tutar
+
+            int min = Math.Min(10, 34); // x ve y sayılarının en küçüğünü tutar
+
+            double c = Math.Ceiling(12.67); // x sayısından büyük en küçük tam sayıyı tutar ( yukarı yuvarlar)
+
+            double d = Math.Floor(12.67); // x sayısından küçük en büyük tam sayıyı tutar ( aşağı yuvarlama )
+
+            Console.WriteLine("max: " + max , "min: " + min, "Ceiling: " + c, "Floor: " + d);
+        }
     }
 }
