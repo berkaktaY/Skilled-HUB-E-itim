@@ -1,6 +1,4 @@
 ﻿using System.ComponentModel.Design;
-using System.Threading.Channels;
-
 namespace Hesap_Makinesi_2
 {
     internal class Program
