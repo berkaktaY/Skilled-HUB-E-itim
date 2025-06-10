@@ -1,4 +1,6 @@
 ﻿using System.Diagnostics.Tracing;
+using System.Net.Mail;
+using System.Threading.Channels;
 
 namespace Konu_8_SINIFLAR_CLASS
 {
@@ -22,11 +24,27 @@ namespace Konu_8_SINIFLAR_CLASS
      * * Sınıflar public yada internal nitelemesi alamazlar 
      * * enum erişim belirteci almaz çünkü daima public tir */
 
+    public class deneme
+    {
+        public string ÜrünAdi = "Public sınıfına herkes erişebilir";
+
+        protected class test // ait olduğu sunuftan ve o sınıftan türetilen sınıfları kapsar
+
+        {
+            string ÜrünAdi;
+        }
+    }
+
+
     internal class Program
     {
         static void Main(string[] args)
         {
             Console.WriteLine("SINIFLAR- CLASSES");
+
+            #region Örnek1
+
+            
 
             EV İlkEv = new EV(); // soyut bir yapı olan EV sınıfından , somut bir nesne
             // olan İlkEv i oluşturduk
@@ -60,10 +78,91 @@ namespace Konu_8_SINIFLAR_CLASS
 
             Console.WriteLine("Köy Evi Sokak: " + KöyEvi.SokakAdi);
             Console.WriteLine("Köy Evi Kapı No: " + KöyEvi.KapiNo);
+            #endregion
+            Console.WriteLine();
+            #region Örnek2
+
+            
+            kullanıcı Kullanici = new()
+            {
+                Ad = "Rüstem Berk",
+                Soyad = "Aktay",
+                Mail = "Berkaktay56@gmail.com",
+                ID = 1,
+                KullanıcıAdı = "berkaktaY1",
+                Sifre = "berkaktaY1.",
+            };
+
+            kullanıcı Aysenur = new()
+            {
+                Ad = "Ayşenur ",
+                Soyad = "Ademir Aktay",
+                Mail = "aysenuray@gmail.com",
+                ID = 2,
+                KullanıcıAdı = "aysenuraydmr",
+                Sifre = "aysenuraydemR1.",
+            };
+
+            Console.WriteLine("Kullanıcı Bilgileri: ");
+            Console.WriteLine("Adı: " + Kullanici.Ad);
+            Console.WriteLine("SoyAdı: " + Kullanici.Soyad);
+            #endregion
+            /*
+                        Console.WriteLine("Kullanıcı Adınız: ");
+                        var KullanıcıAdi = Console.ReadLine();
+                        Console.WriteLine("Şifre Giriniz: ");
+                        var KullanıcıSifre= Console.ReadLine();
+
+                        if (KullanıcıAdi == Kullanici.Ad && KullanıcıSifre ==Kullanici.Sifre)
+                        {
+                            Console.WriteLine("Hoşgeldiniz: " + Kullanici.Ad + " "+ Kullanici.Soyad);
+                        }
+                        else 
+                        {
+                            Console.WriteLine("Giriş Başarısız !!!");
+                        }
+            */
 
             Console.WriteLine();
+            Araba araba = new()
+            {
+                ID = 1,
+                Marka="Ford",
+                Model="Fiesta-Comfor",
+                Yıl=2008,
+                KasaTipi="HatchBack-5",
+                VitesTürü="Manuel",
+                YakıtTipi="Dizel",
+                renk="Siyah",
+            };
 
-
+            Console.WriteLine("Araç Bilgileri: ");
+            Console.WriteLine($"Marka:  {araba.Marka} \n Model: {araba.Model} \n yıl: {araba.Yıl} \n Kasa-Tipi: {araba.KasaTipi} \n Vİtes: {araba.VitesTürü} \n Yakıt: {araba.YakıtTipi} \n Renk:{araba.renk}");
         }
+
+
+
+    }
+
+    class kullanıcı
+    {
+        internal int ID;
+        internal string KullanıcıAdı;
+        internal string Sifre;
+        internal string Mail;
+        internal string Ad;
+        internal string Soyad;
+    }
+
+    class Araba
+    {
+        internal int ID;
+        internal string Marka;
+        internal string Model;
+        internal int Yıl;
+        internal string KasaTipi;
+        internal string VitesTürü;
+        internal string YakıtTipi;
+        internal string renk;
     }
 }
