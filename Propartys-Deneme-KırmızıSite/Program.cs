@@ -76,7 +76,7 @@ namespace Propartys_Deneme_KırmızıSite
                         };
 
                         CarDataMethots CarS = new();
-                        CarS.CarClean(Cars);
+                        CarS.CarUpdate(Cars);
 
                         Console.WriteLine($"Arac Bilgileri: {Cars.CarName} Aracın Modeli: {Cars.CarModel} Arac yılı: {Cars.CarYear} Aracın Km Bilgisi: {Cars.CarKM} Aracın rengi: {Cars.CarColor} Arac Açıklama: {Cars.CarExplanation}" );
                     }
