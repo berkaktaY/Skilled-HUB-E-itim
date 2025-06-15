@@ -33,8 +33,8 @@ namespace Propartys_Deneme_KırmızıSite
 
                     Console.WriteLine("Yapmak İstediğniz İşlem Nedir" + Kullanıcı.Name);
                     Console.WriteLine("Araç Ekle-1");
-                    Console.WriteLine("Araç Sil-2");
-                    Console.WriteLine("Araç Güncelle-3");
+                    Console.WriteLine("Araç Güncelle-2");
+                    Console.WriteLine("Araç Sil -3");
                     Console.WriteLine("İlanda Ki Aracım-4");
 
                     var secım2 = Console.ReadLine();
