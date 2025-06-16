@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DENEME-01-ATM", "DENEME-01-
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Propartys-Deneme-KırmızıSite", "Propartys-Deneme-KırmızıSite\Propartys-Deneme-KırmızıSite.csproj", "{439421D7-3873-4B26-9246-07D0B6A9DC86}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Konu-09-Struct-YAPILAR", "Konu-09-Struct-YAPILAR\Konu-09-Struct-YAPILAR.csproj", "{12B26099-F8EF-4C54-8085-C285E50A29EA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{439421D7-3873-4B26-9246-07D0B6A9DC86}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{439421D7-3873-4B26-9246-07D0B6A9DC86}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{439421D7-3873-4B26-9246-07D0B6A9DC86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12B26099-F8EF-4C54-8085-C285E50A29EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12B26099-F8EF-4C54-8085-C285E50A29EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12B26099-F8EF-4C54-8085-C285E50A29EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12B26099-F8EF-4C54-8085-C285E50A29EA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
