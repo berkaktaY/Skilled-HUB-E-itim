@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Propartys-Deneme-Kırmızı
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Konu-09-Struct-YAPILAR", "Konu-09-Struct-YAPILAR\Konu-09-Struct-YAPILAR.csproj", "{12B26099-F8EF-4C54-8085-C285E50A29EA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Konu-10-String-Sinifi", "Konu-10-String-Sinifi\Konu-10-String-Sinifi.csproj", "{241E45EF-8FA8-4693-BAB4-509399889A73}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{12B26099-F8EF-4C54-8085-C285E50A29EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{12B26099-F8EF-4C54-8085-C285E50A29EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{12B26099-F8EF-4C54-8085-C285E50A29EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{241E45EF-8FA8-4693-BAB4-509399889A73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{241E45EF-8FA8-4693-BAB4-509399889A73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{241E45EF-8FA8-4693-BAB4-509399889A73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{241E45EF-8FA8-4693-BAB4-509399889A73}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
