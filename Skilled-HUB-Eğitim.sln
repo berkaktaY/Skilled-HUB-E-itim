@@ -35,6 +35,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Konu-11-Enumlar", "Konu-11-
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Konu-12-Kalıtım-İNHERİTANCE", "Konu-12-Kalıtım-İNHERİTANCE\Konu-12-Kalıtım-İNHERİTANCE.csproj", "{F2119C9F-64BB-4EEF-BA5D-001D8BD24F24}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Konu-13-Kapsülleme-EnKapsulation", "Konu-13-Kapsülleme-EnKapsulation\Konu-13-Kapsülleme-EnKapsulation.csproj", "{E6F34793-5DDA-4CE2-A4F3-498370A2DDCE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Konu-14-Arayüzler-INTERFACES", "Konu-14-Arayüzler-INTERFACES\Konu-14-Arayüzler-INTERFACES.csproj", "{423A571F-705E-4DDA-AEBA-55C4901CAD4D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -105,6 +109,14 @@ Global
 		{F2119C9F-64BB-4EEF-BA5D-001D8BD24F24}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F2119C9F-64BB-4EEF-BA5D-001D8BD24F24}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F2119C9F-64BB-4EEF-BA5D-001D8BD24F24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6F34793-5DDA-4CE2-A4F3-498370A2DDCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6F34793-5DDA-4CE2-A4F3-498370A2DDCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6F34793-5DDA-4CE2-A4F3-498370A2DDCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6F34793-5DDA-4CE2-A4F3-498370A2DDCE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{423A571F-705E-4DDA-AEBA-55C4901CAD4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{423A571F-705E-4DDA-AEBA-55C4901CAD4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{423A571F-705E-4DDA-AEBA-55C4901CAD4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{423A571F-705E-4DDA-AEBA-55C4901CAD4D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

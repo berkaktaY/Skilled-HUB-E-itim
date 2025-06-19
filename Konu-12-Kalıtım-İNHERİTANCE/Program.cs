@@ -72,6 +72,21 @@ namespace Konu_12_Kalıtım_İNHERİTANCE
 
             Console.WriteLine($"Ürün bilgileri: \n Ürün Adı: {ürün.Name} - Ürün Fiyatı: {ürün.Fiyat}" +
                 $"Ürün KDV: {ürün.KDV} - Eklenme Tarihi: {ürün.CreateDate}");
+            Console.WriteLine();
+
+            Çizici[] Bircizici = new Çizici[4];
+            Bircizici[0] = new Çizici();
+            Bircizici[1] = new DaireCiz();
+            Bircizici[2] = new KareCiz();
+            Bircizici[3] = new DogruCiz();
+
+            foreach (var item in Bircizici)
+            {
+                item.Ciz(); // çiz metodunu çalıştırır
+            }
+            
+
+            
 
         }
 
@@ -86,9 +101,24 @@ namespace Konu_12_Kalıtım_İNHERİTANCE
             }
         }
 
-        public class DogruCiz:Çizici
+        public class DaireCiz:Çizici
         {
             public override void Ciz() 
+            {
+                Console.WriteLine("Daire");
+            }
+        }
+
+        public class KareCiz : Çizici
+        {
+            public override void Ciz()
+            {
+                Console.WriteLine("Kare");
+            }
+        }
+        public class DogruCiz : Çizici
+        {
+            public override void Ciz()
             {
                 Console.WriteLine("Düz Çizgi");
             }
