@@ -65,6 +65,8 @@ namespace ÜrünVeKategoriYönetimi
                     string Idad = Console.ReadLine();
 
                     Kategori SilinecekKategori = new Kategori(Id, Idad);
+                    Console.WriteLine($"{SilinecekKategori.ID} numaralı ID ve {SilinecekKategori.Name} isimli kategori silinmiştir");
+
 
                 }
 
@@ -102,6 +104,7 @@ namespace ÜrünVeKategoriYönetimi
                     string SilAd= Console.ReadLine();
 
                     URUNLER SilUrunler = new URUNLER(SilID, SilAd);
+                    Console.WriteLine($"{SilUrunler.ID} numaralı ID ve {SilUrunler.Name} isimli ürün silinmiştir");
                 }
 
                 else if(Secim == "7" )
