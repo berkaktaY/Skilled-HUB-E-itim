@@ -39,6 +39,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Konu-13-Kapsülleme-EnKapsu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Konu-14-Arayüzler-INTERFACES", "Konu-14-Arayüzler-INTERFACES\Konu-14-Arayüzler-INTERFACES.csproj", "{423A571F-705E-4DDA-AEBA-55C4901CAD4D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ÜrünVeKategoriYönetimi", "ÜrünVeKategoriYönetimi\ÜrünVeKategoriYönetimi.csproj", "{C93FE424-989C-45D4-8681-00A988F091CB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -117,6 +119,10 @@ Global
 		{423A571F-705E-4DDA-AEBA-55C4901CAD4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{423A571F-705E-4DDA-AEBA-55C4901CAD4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{423A571F-705E-4DDA-AEBA-55C4901CAD4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C93FE424-989C-45D4-8681-00A988F091CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C93FE424-989C-45D4-8681-00A988F091CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C93FE424-989C-45D4-8681-00A988F091CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C93FE424-989C-45D4-8681-00A988F091CB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
